@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaspi Мой Банк</title>
+  <style>
+    body { margin:0; font-family: sans-serif; background:#f2f2f2; }
+    .card { background:white; margin:15px; padding:15px; border-radius:10px; }
+    .card-title { font-weight:bold; margin-bottom:5px; }
+    .amount { font-size:18px; color:black; }
+    .button { background:#004FA3; color:white; margin:10px 15px; padding:10px; border-radius:8px; text-align:center; }
+    .nav { position:fixed; bottom:0; width:100%; display:flex; justify-content:space-around; padding:10px 0; background:white; border-top:1px solid #ccc; }
+    .nav div { font-size:12px; color:#555; }
+  </style>
+</head>
+<body>
+
+  <h3 style="text-align:center; padding:10px;">Мой банк</h3>
+
+  <div class="card">
+    <div class="card-title">Kaspi Gold</div>
+    <div class="amount">0 ₸</div>
+  </div>
+
+  <div class="button">Открыть депозит</div>
+  <div class="button">Оформить Кредит или Рассрочку</div>
+
+  <div class="card">
+    <div class="card-title">Kaspi Бонус</div>
+    <div class="amount">60,09 Б</div>
+  </div>
+
+  <div class="nav">
+    <div>Главная</div>
+    <div>Kaspi QR</div>
+    <div>Оповещения</div>
+    <div>Сервисы</div>
+  </div>
+
+</body>
+</html>
